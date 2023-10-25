@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+#nav1{
+    float: left;
+   
+}
+#nav1>img{
+    width: 80px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#nav2{
+    float: right;
+    background-color: brown;
+}

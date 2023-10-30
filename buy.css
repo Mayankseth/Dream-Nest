@@ -12,7 +12,7 @@
     float: left;
   }
   #nav1 > img {
-    width: 70px;
+    width: 90px;
     height: 60px;
     padding-left: 20px;
     padding-top: 5px;
@@ -38,6 +38,7 @@
     height: 50px;
     background-color: wheat;
     margin-top: 70px;
+    display: flex;
     /* z-index: 1; */
  } 
  /* .price{
@@ -51,4 +52,57 @@
     height: 30px;
     /* padding-left: ; */
 
+ .price-btn{
  
+  font-size: 18px !important ;
+  background-color: wheat !important;
+  color: black !important;
+  border: none !important;
+ }
+ .dropdown:hover>.dropdown-menu {
+  display: inline-block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 13px;
+  width: 70px;
+}
+
+.dropDownItem{
+  margin-left: 20px;
+}
+.abc{
+  font-size: 15px;
+}
+.active-pink input.form-control[type=text] {
+  /* border-bottom: 1px solid #f48fb1; */
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  box-shadow: 0 1.5px 0 0 #f48fb1;
+  background-color: wheat !important;
+  width: 250px !important;
+  margin-left: 10px;
+} 
+
+.sort>form>input::placeholder {
+  font-size: 15px;
+}
+
+.SearchIcon{
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.prop-type{
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 13px;
+  width: 70px;
+}

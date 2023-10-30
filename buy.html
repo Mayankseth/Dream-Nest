@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -26,28 +28,44 @@
             </ul>
         </div>
     </header>
+    <div class="sort">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-search SearchIcon" viewBox="0 0 16 16">
+            <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+        </svg>
+        <form class="form-inline d-flex justify-content-center md-form form-sm active-pink active-pink-2 mt-2">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Location"
+                aria-label="Search">
+        </form>
 
 
-    <div class="sort" >
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
+            <button class="btn btn-primary dropdown-toggle price-btn" type="button" id="dropdownMenuButton"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                Price Range
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </div>
-        <!-- <div class="price">
-            <button class="drop-btn">Price</button>
-            <div class="drop-cont">
-                <a href="#">Min-10 Lacs</a>
-                <a href="#">10-30 Lacs</a>
-                <a href="#">30-50 Lacs</a>
-                <a href="#">50 Lacs-Max</a>
-            </div>
-        </div> -->
+            <ul class="dropdown-menu dropDownItem" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item abc" href="#">Upto 50 Lac </a></li>
+                <li><a class="dropdown-item abc" href="#">50 L - 1 Cr</a></li>
+                <li><a class="dropdown-item abc" href="#">1Cr - 2Cr</a></li>
+            </ul>
+        </div>
+        <div class="dropdown prop-type">
+            <button class="btn btn-primary dropdown-toggle price-btn" type="button" id="dropdownMenuButton"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                TYPE
+            </button>
+            <ul class="dropdown-menu dropDownItem" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item abc" href="#">House </a></li>
+                <li><a class="dropdown-item abc" href="#">Flat</a></li>
+                <li><a class="dropdown-item abc" href="#">Villa</a></li>
+                <li><a class="dropdown-item abc" href="#">Land</a></li>
+            </ul>
+        </div>
+        
+
 
     </div>
 </body>

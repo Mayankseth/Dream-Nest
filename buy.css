@@ -131,9 +131,12 @@
   width: 300px !important;
   margin-left: 68px;
   margin-top: 70px;
-}
+  border-radius: 18px !important;
+  background-color: rgba(245, 222, 179, 0.69) !important;
+} 
+
 .card-body{
-  background-color: rgba(245, 222, 179, 0.69);
+  /* background-color: rgba(245, 222, 179, 0.69); */
 }
 .buyBtn{
   justify-content: center;
@@ -156,6 +159,8 @@
   width: 300px !important;
   margin-left: 68px;
   margin-top: 100px;
+  border-radius: 18px !important;
+  background-color: rgba(245, 222, 179, 0.69) !important;
 } 
 .cards-2{
   display: flex;

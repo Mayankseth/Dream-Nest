@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -9,45 +10,47 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+    .slideShowImage img {
+      width: 200px;
+      height: 200px;
+     
+    }
   </style>
 </head>
+
 <body>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
+  <div id="demo" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="facebook.png" alt="Los Angeles" width="100" height="300">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner slideShowImage">
+      <div class="carousel-item active" id="imageShow">
+        <img src="facebook.png" alt="Los Angeles">
+      </div>
+      <div class="carousel-item" id="imageShow">
+        <img src="insta.png" alt="Chicago">
+      </div>
+      <div class="carousel-item" id="imageShow">
+        <img src="linkedIn.png" alt="New York">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="insta.png" alt="Chicago" width="100" height="300">
-    </div>
-    <div class="carousel-item">
-      <img src="linkedIn.png" alt="New York" width="100" height="300">
-    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
   </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
 
 </body>
+
 </html>

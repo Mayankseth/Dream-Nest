@@ -193,7 +193,7 @@ footer{
   width: 30px;
 }
 #nav2>ul>li:hover{
-  color: rgba(255, 0, 0, 0.373);
+  color: wheat;
   font-size: 110%;
   cursor: pointer;
 }

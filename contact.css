@@ -11,7 +11,7 @@
   #nav1 {
     float: left;
   }
-  #nav1 > img {
+  #nav1 >a> img {
     width: 70px;
     height: 60px;
     padding-left: 20px;
@@ -28,7 +28,7 @@
     color: white;
     font-size: 20px;
   }
-  .home-nav > li {
+  .home-nav >a> li {
     padding-right: 30px;
     padding-top: 20px;
   }
@@ -157,9 +157,15 @@
     padding: 5px;
     height: 30px;
     width: 30px;
-  } #nav2>ul>li:hover{
+  } #nav2>ul>a>li:hover{
     color: wheat;
     font-size: 110%;
     cursor: pointer;
   }
-  
+  li{
+    color: #f2f2f2;
+  }
+  a{
+    text-decoration: none !important;
+    color: #f2f2f2;
+  }

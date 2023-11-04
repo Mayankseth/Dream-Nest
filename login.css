@@ -41,9 +41,10 @@ header {
   color: white;
   font-size: 20px;
 }
-.home-nav > li {
+.home-nav >a> li {
   padding-right: 30px;
   padding-top: 20px;
+  text-decoration: none !important;
 }
 img {
   height: 10%;
@@ -222,4 +223,12 @@ button:hover {
 
 .success {
   color: #27ae60;
+}
+#nav2 > ul >a> li:hover {
+  color: wheat ;
+  font-size: 110%;
+  cursor: pointer;
+}
+li{
+  color: #f2f2f2;
 }

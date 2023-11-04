@@ -32,6 +32,11 @@ header {
   padding-right: 30px;
   padding-top: 20px;
 }
+.btn{
+  border-radius: 80%;
+  width: 75px;
+  height: 50px;
+}
 
 .container > img {
   margin-top: 50px;

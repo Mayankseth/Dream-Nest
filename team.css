@@ -29,6 +29,13 @@ header {
   padding-right: 30px;
   padding-top: 20px;
 }
+.home-nav>a>button{
+  border-radius: 80%;
+  width: 75px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
 
 .containerTeam>.container{
   margin-top:60px;

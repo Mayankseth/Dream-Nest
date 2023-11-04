@@ -28,9 +28,17 @@
     color: white;
     font-size: 20px;
   }
-  .home-nav > li {
+  .home-nav >a> li {
     padding-right: 30px;
     padding-top: 20px;
+  }
+  .home-nav>a>button{
+    
+    border-radius: 80%;
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    color: black;
   }
   img {
     height: 10%;
@@ -162,7 +170,7 @@
   button {
     width: 100%;
     padding: 10px;
-    margin: 20px 0;
+    margin: 11px 0;
     border: none;
     background: #3498db;
     border-radius: 5px;
@@ -188,3 +196,12 @@
   .success {
     color: #27ae60;
   }
+  #nav2 > ul >a> li:hover {
+    color: wheat ;
+    font-size: 110%;
+    cursor: pointer;
+  }
+  li{
+    color: #f2f2f2;
+  }
+  

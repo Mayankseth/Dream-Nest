@@ -56,27 +56,27 @@ header {
     width: 90%;
     height: 300px;
     margin-top: 100px;
-    margin-left: 55px;
+    margin-left: 70px;
     display: flex;
 
 }
 .propertyNameRow{
     margin-top: 10px;
-    margin-left: 55px ;
+    margin-left: 70px ;
 
 }
 .propertyNameRow h1{
     font-size: 28px;
 }
 .propertyContainer h3{
-    margin-left: 55px;
+    margin-left: 70px;
     font-size: 20px;
 }
 #information{
     display: flex;
     margin-top: 2.5rem;
     margin-bottom: 1.125rem;
-    margin-left: 55px;
+    margin-left: 70px;
     background-color: white;
     /* border: 1px solid #cacaca ; */
     /* border-radius: 5px; */
@@ -128,7 +128,7 @@ li.coloumn::after{
 footer {
     width: 100%;
     height: 80px;
-    margin-top: 110vh;
+    margin-top: 75vh;
     background-color: rgb(29, 31, 57);
     z-index: 3;
     position: absolute;

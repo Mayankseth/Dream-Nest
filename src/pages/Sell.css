@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+  }
+  header {
+      width: 100%;
+      height: 70px;
+      background-color: rgb(29, 31, 57);
+      position: fixed;
+      z-index: 1;
+      position: relative;
+    }
+    #nav1 {
+      float: left;
+    }
+    #nav1 >a> img {
+      width: 70px;
+      height: 60px;
+      padding-left: 20px;
+      padding-top: 5px;
+    }
+    #nav2 {
+      float: right;
+    }
+    .home-nav {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+    }
+    .home-nav >a> li {
+      padding-right: 30px;
+      padding-top: 20px;
+    }
+  
+   #sell{
+    margin-top: -120px;
+      width: 100%;
+      /* z-index: -1; */
+      /* opacity: 0.7; */
+      background: url('../Images/sellimg.jpg') no-repeat center center/cover;
+      height: 100%;
+      
+   }
+   #sell h2{
+      font-size: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 10px;
+      
+   }
+  
+   textarea:focus, input:focus{
+      outline: none;
+    }
+    #sell ul li{
+      list-style: none;
+    }
+    #sell ul{
+      display: inline-block;
+    }
+    #sell-box{
+      background-color: rgba(192, 191, 184, 0.807);
+      position: relative;
+      width: 500px;
+      margin-top: 120px;
+      margin-left: 550px;
+      
+    }
+    
+    input {
+      border: 0;
+      margin: 1em 40px;
+      width: 300px;
+      padding: 10px;
+      border-bottom: 2px solid black;
+      background: none;
+      font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+      display: block;
+      color: black;
+    }
+    .lable{
+      margin-left: 50px;
+      opacity: 0.7;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      
+    }
+  
+  
+  .dropbtn {
+      /* background-color: wheat; */
+      /* color: white; */
+      padding: 16px;
+      font-size: 12px;
+      border: 1px solid black;
+      margin-left: 50px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 80px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 8px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color:rgb(214, 204, 183);
+    }
+    
+    
+  
+    textarea{
+      border: 0;
+      width: 300px;
+      height: 100px;
+      display: block;
+      margin-left: 40px;
+      background: none;
+      padding: 10px;
+      font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+      border-bottom: 2px solid black;
+      color: black;
+    }
+  
+    #submit {
+      margin: 3em auto 4em;
+      border: 2px solid black;
+      color: black;
+      }
+      #submit:hover {
+        color: #fff
+      }
+      
+      .btn1{
+        background: none;
+        border: 2px solid #252525;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        margin: 15em auto;
+        padding: 1.2em 2em;
+        color: #212121;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        /* letter-spacing: 1px; */
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        
+        display: block;
+      }
+      
+      .btn1:hover{
+        background: rgb(35, 34, 34); 
+        color: #fff; 
+        border: 2px solid black ;
+      }
+      .btn1:active{
+        background: #0c0c0c; 
+        color: #fff; 
+        border: 2px solid black ;
+      }
+  
+      footer{
+        width: 100%;
+        height: 80px;
+        margin-top: 50vh;
+        background-color: rgb(29, 31, 57);
+        z-index: 3;
+        position: absolute;
+      }
+      .copy{
+        float: left;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: white;
+      }
+      .contacticon{
+        display: flex;
+        float: right;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 30px;
+      }
+      .contacticon>img{
+        padding: 5px;
+        height: 30px;
+        width: 30px;
+      }
+  

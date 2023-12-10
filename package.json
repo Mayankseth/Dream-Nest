@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,13 +13,16 @@
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "email-validator": "^2.0.4",
     "express": "^4.18.2",
+    "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.2.0",
-    "mongoose": "^8.0.0",
+    "mongoose": "^8.0.1",
     "nodemon": "^3.0.1",
     "validator": "^13.11.0"
-  }
+  },
+  "description": ""
 }
